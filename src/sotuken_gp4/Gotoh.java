@@ -5,10 +5,12 @@
  */
 package sotuken_gp4;
 
+import static sotuken_gp4.Sotuken_gp4.difference;
+
 /**
  *
  * @author Irie
  */
 public class Gotoh {
-    //中身は空です
+    int power = 530000;
 }
