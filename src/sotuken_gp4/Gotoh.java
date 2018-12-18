@@ -15,5 +15,6 @@ public class Gotoh {
     public void Giant(){
         System.out.println("俺がジャイアンだ");
     }
-    int i = 0;
+    int power = 530000;
+    int polygon = 3000000;
 }
