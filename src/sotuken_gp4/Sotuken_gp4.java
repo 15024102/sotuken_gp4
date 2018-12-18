@@ -32,7 +32,7 @@ public class Sotuken_gp4 {
         System.out.println("ドラえも～ん(泣)");//
         primeNumber(); //1から100までの素数を表示
         Gotoh gotoh = new Gotoh();
-        gotoh.Giant();
+        Whoareyou();
         gotoh=null; //役割を終えた後藤は消滅する
         
         
