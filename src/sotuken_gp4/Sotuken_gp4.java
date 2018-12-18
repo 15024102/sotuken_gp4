@@ -26,7 +26,7 @@ public class Sotuken_gp4 {
         System.out.println("x－y=" + difference(x,y));
         System.out.println("x×y=" + product(x,y));
         System.out.println("x÷y=" + quotient(x,y));
-        System.out.println();
+        System.out.println();//
         primeNumber(); //1から100までの素数を表示
         
         
