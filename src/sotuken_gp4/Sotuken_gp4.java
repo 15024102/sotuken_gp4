@@ -19,8 +19,7 @@ public class Sotuken_gp4 {
         int y = 2;
         int n = 0;
         double answer = 0;
-        System.out.println("Error");
-        System.out.println("kashiki");
+
         System.out.println("x=" + x + ", y=" + y);
         System.out.println("x＋y=" + sum(x,y));
         System.out.println("x－y=" + difference(x,y));
@@ -29,6 +28,8 @@ public class Sotuken_gp4 {
         System.out.println("おい!のび太!");//
         System.out.println("ドラえも～ん(泣)");//
         primeNumber(); //1から100までの素数を表示
+        Gotoh gotoh = new Gotoh();
+        gotoh.Giant();
         
         
         
