@@ -11,4 +11,5 @@ package sotuken_gp4;
  */
 public class Gotoh {
     //中身は空です
+    int i = 0;
 }
