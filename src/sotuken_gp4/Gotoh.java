@@ -5,6 +5,8 @@
  */
 package sotuken_gp4;
 
+import static sotuken_gp4.Sotuken_gp4.difference;
+
 /**
  *
  * @author Irie
@@ -15,6 +17,7 @@ public class Gotoh {
     public void Giant(){
         System.out.println("俺がジャイアンだ");
     }
-    int power = 530000;
     int polygon = 3000000;
+    int i = 0;
+    int power = 530000;
 }
