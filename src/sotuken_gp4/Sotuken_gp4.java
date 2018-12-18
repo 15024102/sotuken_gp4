@@ -99,7 +99,7 @@ public class Sotuken_gp4 {
         if(power < f_power) {
             gotoh.Giant();
         }else{
-            gotoh.MisterF();
+            gotoh.MisterF(power);
         }
     }
 }
