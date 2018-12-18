@@ -15,4 +15,5 @@ public class Gotoh {
     public void Giant(){
         System.out.println("俺がジャイアンだ");
     }
+    int i = 0;
 }
