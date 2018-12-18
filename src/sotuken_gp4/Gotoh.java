@@ -22,6 +22,7 @@ public class Gotoh {
     public void MisterF(){
         int power = 530000;
         System.out.println("私がフリーザ様ですよ");
+        System.out.println("私の戦闘力は"+power+"です");
     }
    
 }
