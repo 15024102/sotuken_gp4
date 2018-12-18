@@ -13,11 +13,15 @@ import static sotuken_gp4.Sotuken_gp4.difference;
  */
 public class Gotoh {
     //中身は空です
-    
+   
     public void Giant(){
         System.out.println("俺がジャイアンだ");
     }
     int polygon = 3000000;
     int i = 0;
-    int power = 530000;
+    public void MisterF(){
+        int power = 530000;
+        System.out.println("私がフリーザ様ですよ");
+    }
+   
 }
