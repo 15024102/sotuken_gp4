@@ -20,6 +20,7 @@ public class Gotoh {
     int i = 0;
     public void MisterF(double power){
         System.out.println("私がフリーザ様ですよ");
+        System.out.println("おほほほ");
         System.out.println("私の戦闘力は"+power+"です");
     }
    
