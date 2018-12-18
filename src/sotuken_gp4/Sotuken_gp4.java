@@ -29,6 +29,8 @@ public class Sotuken_gp4 {
         System.out.println("おい!のび太!");//
         System.out.println("ドラえも～ん(泣)");//
         primeNumber(); //1から100までの素数を表示
+        Gotoh gotoh = new Gotoh();
+        gotoh.Giant();
         
         
         

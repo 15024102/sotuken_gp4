@@ -11,4 +11,8 @@ package sotuken_gp4;
  */
 public class Gotoh {
     //中身は空です
+    
+    public void Giant(){
+        System.out.println("俺がジャイアンだ");
+    }
 }
