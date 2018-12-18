@@ -5,6 +5,9 @@
  */
 package sotuken_gp4;
 import java.io.*;
+import java.util.Random;
+import java.lang.Math;
+
 /**
  *
  * @author Takeda
@@ -87,5 +90,16 @@ public class Sotuken_gp4 {
     static int fact(int n) {
         if(n==1) return 1;
         else     return n * fact(n-1);
+    }
+    //後藤とは一体何なのかわかります
+    public static void Whoareyou(){
+        Gotoh gotoh = new Gotoh();
+        final double f_power = 530000;
+        double power = 1000000 * Math.random();//後藤のパワーは不安定
+        if(power < f_power) {
+            gotoh.Giant();
+        }else{
+            gotoh.MisterF();
+        }
     }
 }
