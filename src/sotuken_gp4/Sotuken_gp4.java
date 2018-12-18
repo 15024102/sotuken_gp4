@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package sotuken_gp4;
-
+import java.io.*;
 /**
  *
  * @author Takeda
@@ -17,6 +17,8 @@ public class Sotuken_gp4 {
     public static void main(String[] args) {
         int x = 10;
         int y = 2;
+        int n = 0;
+        double answer = 0;
         System.out.println("Error");
         System.out.println("kashiki");
         System.out.println("x=" + x + ", y=" + y);
@@ -26,6 +28,18 @@ public class Sotuken_gp4 {
         System.out.println("x÷y=" + quotient(x,y));
         System.out.println();
         primeNumber(); //1から100までの素数を表示
+        
+        
+        
+	try {
+            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+            System.out.print("ｎの値を入力して下さい ");
+            n = Integer.parseInt(in.readLine());
+	}
+	catch (IOException ignored) {}
+        
+        answer = fact(n);
+        System.out.println("   " + n + "の階乗は＝" + answer);
     }
     
     //足し算
@@ -67,5 +81,9 @@ public class Sotuken_gp4 {
             flag = false;
         }
     }
-    
+    //階乗計算
+    static int fact(int n) {
+        if(n==1) return 1;
+        else     return n * fact(n-1);
+    }
 }
