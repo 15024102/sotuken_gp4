@@ -30,7 +30,7 @@ public class Sotuken_gp4 {
         primeNumber(); //1から100までの素数を表示
         Gotoh gotoh = new Gotoh();
         gotoh.Giant();
-        
+        gotoh=null; //役割を終えた後藤は消滅する
         
         
 	try {
