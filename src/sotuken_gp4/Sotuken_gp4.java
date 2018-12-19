@@ -31,9 +31,7 @@ public class Sotuken_gp4 {
         System.out.println("おい!のび太!");//
         System.out.println("ドラえも～ん(泣)");//
         primeNumber(); //1から100までの素数を表示
-        Gotoh gotoh = new Gotoh();
         Whoareyou();
-        gotoh=null; //役割を終えた後藤は消滅する
         
         
 	try {
@@ -101,5 +99,6 @@ public class Sotuken_gp4 {
         }else{
             gotoh.MisterF(power);
         }
+        gotoh=null; //役割を終えた後藤は消滅する
     }
 }
