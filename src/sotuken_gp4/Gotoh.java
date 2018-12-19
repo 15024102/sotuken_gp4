@@ -16,6 +16,11 @@ public class Gotoh {
     public void Giant(){
         System.out.println("俺がジャイアンだ");
     }
+    
+    public void gengo(){
+        System.out.println("元号は後藤だ");
+    } 
+    
     int polygon = 3000000;
     int i = 0;
     public void MisterF(double power){
